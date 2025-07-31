@@ -43,6 +43,9 @@ sudo systemctl start keyd
 # androidタブレットのサブディスプレイ化
 ## 保留
 
+# 電源管理
+sudo apt install tlp
+
 # docker engine
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
