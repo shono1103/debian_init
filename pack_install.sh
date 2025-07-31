@@ -40,7 +40,7 @@ sudo systemctl start keyd
 # touchpadジェスチャー
 ## 保留
 
-# welus
+# androidタブレットのサブディスプレイ化
 ## 保留
 
 # docker engine
