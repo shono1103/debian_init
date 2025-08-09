@@ -9,6 +9,10 @@ sudo apt install -y git curl openssh-client wget software-properties-common apt-
 # 言語系
 ## c/c++開発用パッケージ
 sudo apt install -y build-essential gdb
+### clingパッケージ
+sudo add-apt-repository ppa:ppa-verse/cling
+sudo apt update
+sudo apt install cling
 ## ruby開発用パッケージ
 ### 必要ライブラリのインストール
 sudo apt install -y libssl-dev libreadline-dev zlib1g-dev libyaml-dev libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev
